@@ -9,12 +9,13 @@
 .hr-line{
     
 	border-bottom: 3px solid #4E8FCC;
-   	padding-top:230px;
-	margin-left:-75px;
+   	/*padding-top:230px;*/
+   	padding-top:255px;
+   	margin-left:-75px;
 }
 #education div.row div.col-lg-6, .col-lg-12{
 	color: #4E8FCC;
-	/*font-style: italic;*/
+	font-style: italic;
 }
 ul{
 	padding: 0px;
@@ -75,7 +76,7 @@ p.heading-primary-text{
     font-weight: 500;
 }
 div .text-primary{
-	/*font-style:Italic;*/
+	font-style:Italic;
 }
 .bottomSpace{
 	margin-bottom : 20px;
@@ -107,7 +108,9 @@ div .text-primary{
 */
 
 #achievements{
-	min-height: 361px;
+	/*min-height: 361px;*/
+	min-height: 250px;
+	
 }
 
 #work_experience{
@@ -115,7 +118,9 @@ div .text-primary{
 }
 
 #skills_competencies{
-	min-height: 266px;
+	/*min-height: 266px;*/
+	min-height: 160px;
+	
 }
 
 #projects{
@@ -123,11 +128,12 @@ div .text-primary{
 }
 
 #clubs_and_activities{
-	min-height: 245px;
+	/*min-height: 245px;*/
+	min-height: 125px;
 }
 
 #publications{
-	min-height: 267px;
+	min-height: 250px;
 }
 
 #interests{
@@ -164,7 +170,7 @@ min-height: 232px;
     width: 85%;
 }
 .topHeader div#social_info p i{
-color: #4E8FCC;
+/*color: #4E8FCC;*/
 padding-left: 10px;
 
 }
@@ -221,3 +227,47 @@ padding-left: 10px;
 	min-height: 232px;
 }
 */
+/*designer css start*/
+.hr-line {
+    border-bottom: 3px solid #4E8FCC;
+    /* padding-top: 230px; */
+    /* padding-top: 255px; */
+    padding-top: 0;
+    margin-left: 0;
+    position: static;
+    width: 107%;
+    margin-left: -80px;
+    float: left;
+    /* display: none; */
+}
+.row.topHeader {
+    width: 100%;
+    /* font-size: large; */
+    float: left;
+    clear: both;
+}
+.headingTextColor
+{
+	    color: #4E8FCC;
+}
+#achievements h5
+{
+	margin-bottom: 0px;
+}
+#projects h5
+{
+	margin-bottom: 0px;
+}
+#projects h5 ul li
+{
+	background: red;
+	margin: -10px;
+}
+#publications h5
+{	
+	margin-bottom: 0px;
+}
+#clubs_and_activities h5
+{
+	margin-bottom: 0px;
+}
